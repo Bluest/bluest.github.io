@@ -1,0 +1,31 @@
+.card {
+    background-color: #555d;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 20px #555d;
+    margin: 20px 0 80px;
+    width: 600px;
+
+    &:has(> .logo-showcase) {
+        width: 800px;
+    }
+}
+
+.logo-showcase {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 100px;
+}
+
+.logo-small {
+    height: 50px;
+}
+
+.screenshot {
+    width: 400px;
+}

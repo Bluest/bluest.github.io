@@ -1,0 +1,17 @@
+body {
+    background-color: #444;
+    margin: 0;
+    overflow: hidden;
+}
+
+#background-canvas {
+    background-color: #444;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+#scrollable-viewport {
+    overflow-y: scroll;
+}

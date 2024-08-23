@@ -1,0 +1,7 @@
+.partial-horizontal-rule {
+    margin: 0 20px;
+    width: 200px;
+    border-top: solid 4px;
+    position: relative;
+    top: 2px;
+}

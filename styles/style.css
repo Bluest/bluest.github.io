@@ -1,0 +1,20 @@
+@import 'background.css';
+@import 'cards.css';
+@import 'flex.css';
+@import 'partial-horizontal-rule.css';
+@import 'text.css';
+
+:root {
+    color-scheme: dark;
+}
+
+body {
+    user-select: none;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+}
